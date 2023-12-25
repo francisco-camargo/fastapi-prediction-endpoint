@@ -8,6 +8,6 @@ Based on the chapter, Creating an Efficient Prediction API Endpoint with FastAPI
 
 In this repo we take as given a trained model which categorizes news articles using multinomial Naive Bayes. To learn about training this model, see the chapter Introduction to Data Science in Python.
 
-Run app with `uvicorn app:app --reload`
+Run app with `uvicorn prediction_endpoint:app --reload`
 
 View documentation at `http://localhost:8000/docs`
