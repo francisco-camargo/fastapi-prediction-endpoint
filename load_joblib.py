@@ -17,3 +17,4 @@ if __name__ == '__main__':
     inference_input = ['computer cpu memory ram']
     p = model.predict(inference_input)
     print(targets[p[0]])
+    print(targets)
