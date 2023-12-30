@@ -1,5 +1,5 @@
 black
 flake8
-scikit-learn==1.2.2
+scikit-learn==1.2.2 # this version is need given the model artifact
 fastapi
 uvicorn
